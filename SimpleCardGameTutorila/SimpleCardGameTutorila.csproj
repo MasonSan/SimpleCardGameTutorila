@@ -23,6 +23,58 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app.css" />
+    <Content Include="Cards\ace_of_clubs.png" />
+    <Content Include="Cards\ace_of_diamond.png" />
+    <Content Include="Cards\ace_of_hearts.png" />
+    <Content Include="Cards\ace_of_spades.png" />
+    <Content Include="Cards\eight_of_clubs.png" />
+    <Content Include="Cards\eight_of_diamond.png" />
+    <Content Include="Cards\eight_of_hearts.png" />
+    <Content Include="Cards\eight_of_spades.png" />
+    <Content Include="Cards\five_of_clubs.png" />
+    <Content Include="Cards\five_of_diamond.png" />
+    <Content Include="Cards\five_of_hearts.png" />
+    <Content Include="Cards\five_of_spades.png" />
+    <Content Include="Cards\four_of_clubs.png" />
+    <Content Include="Cards\four_of_diamond.png" />
+    <Content Include="Cards\four_of_hearts.png" />
+    <Content Include="Cards\four_of_spades.png" />
+    <Content Include="Cards\jack_of_clubs.png" />
+    <Content Include="Cards\jack_of_diamond.png" />
+    <Content Include="Cards\jack_of_hearts.png" />
+    <Content Include="Cards\jack_of_spades.png" />
+    <Content Include="Cards\king_of_clubs.png" />
+    <Content Include="Cards\king_of_diamond.png" />
+    <Content Include="Cards\king_of_hearts.png" />
+    <Content Include="Cards\king_of_spades.png" />
+    <Content Include="Cards\nine_of_clubs.png" />
+    <Content Include="Cards\nine_of_diamond.png" />
+    <Content Include="Cards\nine_of_hearts.png" />
+    <Content Include="Cards\nine_of_spades.png" />
+    <Content Include="Cards\queen_of_clubs.png" />
+    <Content Include="Cards\queen_of_diamond.png" />
+    <Content Include="Cards\queen_of_hearts.png" />
+    <Content Include="Cards\queen_of_spades.png" />
+    <Content Include="Cards\seven_of_clubs.png" />
+    <Content Include="Cards\seven_of_diamond.png" />
+    <Content Include="Cards\seven_of_hearts.png" />
+    <Content Include="Cards\seven_of_spades.png" />
+    <Content Include="Cards\six_of_clubs.png" />
+    <Content Include="Cards\six_of_diamond.png" />
+    <Content Include="Cards\six_of_hearts.png" />
+    <Content Include="Cards\six_of_spades.png" />
+    <Content Include="Cards\ten_of_clubs.png" />
+    <Content Include="Cards\ten_of_diamond.png" />
+    <Content Include="Cards\ten_of_hearts.png" />
+    <Content Include="Cards\ten_of_spades.png" />
+    <Content Include="Cards\three_of_clubs.png" />
+    <Content Include="Cards\three_of_diamond.png" />
+    <Content Include="Cards\three_of_hearts.png" />
+    <Content Include="Cards\three_of_spades.png" />
+    <Content Include="Cards\two_of_clubs.png" />
+    <Content Include="Cards\two_of_diamond.png" />
+    <Content Include="Cards\two_of_hearts.png" />
+    <Content Include="Cards\two_of_spades.png" />
     <Content Include="index.html" />
     <Content Include="web.config" />
   </ItemGroup>
@@ -33,6 +85,11 @@
     <None Include="web.Release.config">
       <DependentUpon>web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="TypeScripts\CardSuit.ts" />
+    <TypeScriptCompile Include="TypeScripts\PlayinfCardDeck.ts" />
+    <TypeScriptCompile Include="TypeScripts\PlayingCard.ts" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>
